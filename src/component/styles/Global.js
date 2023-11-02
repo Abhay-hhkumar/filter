@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
 
 ${'' /* header */}
 
-header{background:rgb(67, 67, 67);z-index:10;color:white;height:70px;;display:flex;justify-content:space-between;align-items:center;position:fixed;width:100%}
+header{background:black;z-index:10;color:white;height:70px;;display:flex;justify-content:space-between;align-items:center;position:fixed;width:100%}
 header h2{font-size:30px;margin-left:20px;}
 header button{margin-right:20px;display:none;padding:5px 20px;border:none;border-radius:20px;font-size:15px;}
 
@@ -26,6 +26,7 @@ ${'' /* category box */}
 .categoryBox{background:#dbdbdb;margin-top:10px;padding:20px;border-radius:10px}
 .categoryOptions{display:flex;flex-wrap:wrap;gap:10px;}
 .categoryOptions label{background:rgb(235, 235, 235);padding: 5px 15px;border-radius:100px}
+.categoryOptions label:hover{background:orange;}
 
 
 
@@ -42,8 +43,10 @@ ${'' /* product box */}
 .productCard li{list-style-type:none;width:200px;;height:auto;;padding:10px;background:rgb(223, 223, 223);border-radius:10px}
 .productCard li img{max-width:100%;height:200px;object-fit:cover;border-radius:10px}
 
+.productCard li:hover{background:rgb(191, 255, 0);}
 .productCard li p{font-size:15px;margin:5px;}
 .productCard li .title{font-weight:bold;}
+.productCard li .categoryText{color:red;}
 
 
 
@@ -57,7 +60,10 @@ ${'' /* product box */}
 ${'' /* pagination */}
 .pagination{cursor:pointer;margin-bottom:20px;margin-left:auto;margin-right:auto;display:flex;gap:10px;list-style-type:none;;;}
 .pagination li{background:rgb(221, 221, 221);padding:7px 30px;border-radius:20px;;}
+.pagination li:hover{color:white;background:red}
 .pagination li.active{background:green;color:white;}
+
+
 
 .rangeBox{ padding: 20px;color:white;margin-top:20px;border-radius:10px; background-color: blue}
 
