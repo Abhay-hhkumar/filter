@@ -47,14 +47,7 @@ ${'' /* product box */}
 .productCard li p{font-size:15px;margin:5px;}
 .productCard li .title{font-weight:bold;}
 .productCard li .categoryText{color:red;}
-
-
-
-
-
-
-
-
+${'' /* hh */}
 
 
 ${'' /* pagination */}
