@@ -70,5 +70,5 @@ export default App
 // npm install react-slider
 // npm install styled-components
 
-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
+
 
