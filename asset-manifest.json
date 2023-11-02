@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/filter/static/css/main.e6c13ad2.css",
+    "main.js": "/filter/static/js/main.7d02ecb2.js",
+    "static/js/787.2e461eb7.chunk.js": "/filter/static/js/787.2e461eb7.chunk.js",
+    "static/media/nokia.jpg": "/filter/static/media/nokia.40ca417e22e3da81a512.jpg",
+    "index.html": "/filter/index.html",
+    "main.e6c13ad2.css.map": "/filter/static/css/main.e6c13ad2.css.map",
+    "main.7d02ecb2.js.map": "/filter/static/js/main.7d02ecb2.js.map",
+    "787.2e461eb7.chunk.js.map": "/filter/static/js/787.2e461eb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7d02ecb2.js"
+  ]
+}
