@@ -22,6 +22,6 @@ E-commerce and product search platforms benefit significantly from streamlined p
 
 D) Tech Stack:
 
-Frontend: HTML, CSS, JavaScript, React.js
-Pagination Library: React-Paginate, styled-component
+i) Frontend: HTML, CSS, JavaScript, React.js
+ii) Library: React-Paginate, styled-component
 
